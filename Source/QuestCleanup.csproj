@@ -51,15 +51,21 @@
       <HintPath>..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\RimWorldWin64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
       <HintPath>..\..\..\RimWorldWin64_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="QuestCleanup\ModSettings.cs" />
+    <Compile Include="QuestCleanup\QuestAutoCleanup.cs" />
+    <Compile Include="QuestCleanup\QuestCleanupModSettings.cs" />
     <Compile Include="QuestCleanup\Properties\AssemblyInfo.cs" />
-    <Compile Include="QuestCleanup\Main.cs" />
+    <Compile Include="QuestCleanup\QuestCleanUp.cs" />
+    <Compile Include="QuestCleanup\QuestCleanupUIWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\About\About.xml" />
