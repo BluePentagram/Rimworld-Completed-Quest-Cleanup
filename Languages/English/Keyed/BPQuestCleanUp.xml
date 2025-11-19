@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<BPHistoricalQuestCleanup>Cleanup Quest's</BPHistoricalQuestCleanup>
+	<BPQuestCleanupButton>Cleanup Quest's</BPQuestCleanupButton>
+
+	<BPQuestCleanupMod>Completed Quest Cleanup</BPQuestCleanupMod>
+	<BPQuestCleanupLogging>[Debug] Simple Logging</BPQuestCleanupLogging>
+	<BPQuestCleanupLoggingToolTip>Adds some simple logging in the debug console, note: All log messages are in English.</BPQuestCleanupLoggingToolTip>
+	<BPQuestCleanupRestartNeeded>The game needs to be fully restarted for the options below to take effect.</BPQuestCleanupRestartNeeded>
+	<BPQuestCleanupShowButton>Show quest cleanup button in quest log.</BPQuestCleanupShowButton>
+	<BPQuestCleanupShowButtonToolTip>Shows the cleanup button in the quest log.</BPQuestCleanupShowButtonToolTip>
+
 </LanguageData>

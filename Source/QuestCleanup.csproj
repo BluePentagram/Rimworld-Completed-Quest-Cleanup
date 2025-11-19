@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="QuestCleanup\ModSettings.cs" />
     <Compile Include="QuestCleanup\Properties\AssemblyInfo.cs" />
     <Compile Include="QuestCleanup\Main.cs" />
   </ItemGroup>
