@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-	<name>Completed Quest Cleanup</name>
+	<name>Historical UI Quest Cleanup</name>
 	<author>Blue-Pentagram</author>
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=3607505444</url>
 	<supportedVersions>
@@ -19,5 +19,5 @@
 	</modDependencies>
 	<loadAfter>
 	</loadAfter>
-	<description>A Button to quickly remove all completed quests, does not remove completed relic hunt quests by itself.</description>
+	<description>Add's a mass delete Button to quickly remove all historical quests from yuor UI, does not remove relic hunt quests by itself.</description>
 </ModMetaData>

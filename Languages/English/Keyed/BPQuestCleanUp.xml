@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	<BPQuestCleanupButton>Cleanup Quest's</BPQuestCleanupButton>
-	<BPAutoQuestCleanupUIText>[Completed Quest Cleanup] Auto Removing Finished Quests</BPAutoQuestCleanupUIText>
+	<BPAutoQuestCleanupUIText>[UI Quest Cleanup] Auto cleaning historical Quests</BPAutoQuestCleanupUIText>
 
-	<BPQuestCleanupMod>Completed Quest Cleanup</BPQuestCleanupMod>
-	<BPQuestCleanupLogging>[Debug] Simple Logging</BPQuestCleanupLogging>
-	<BPQuestCleanupLoggingToolTip>Adds some simple logging in the debug console, note: All log messages are in English.</BPQuestCleanupLoggingToolTip>
-	<BPQuestCleanupShowButton>Show quest cleanup button in quest log.</BPQuestCleanupShowButton>
-	<BPQuestCleanupShowButtonToolTip>Shows the cleanup button in the quest log.</BPQuestCleanupShowButtonToolTip>
-	<BPAutoQuestCleanup>Auto remove quest on quest cleanup.</BPAutoQuestCleanup>
-	<BPAutoQuestCleanupToolTip>Remove's any quest when the quest gets sent for quest cleaned up.</BPAutoQuestCleanupToolTip>
+	<BPQuestCleanupMod>Historical Quest UI Cleanup</BPQuestCleanupMod>
+	
+	<BPQuestCleanupShowButton>Show quest ui cleanup button in quest log.</BPQuestCleanupShowButton>
+	<BPQuestCleanupShowButtonToolTip>Show quest ui cleanup button in quest log.</BPQuestCleanupShowButtonToolTip>
+	
+	<BPQuestAutoCleanup>Auto cleanup quest on move to historical tab.</BPQuestAutoCleanup>
+	<BPQuestAutoCleanupToolTip>Auto cleanup quest on move to historical tab.</BPQuestAutoCleanupToolTip>
+	
+	<BPQuestUIDrawing>Show UI changes in the quest panel. (Button needs this to be on)</BPQuestUIDrawing>
+	<BPQuestUIDrawingTooltip>Show the UI changes made in the quest journel.</BPQuestUIDrawingTooltip>	
 
 </LanguageData>

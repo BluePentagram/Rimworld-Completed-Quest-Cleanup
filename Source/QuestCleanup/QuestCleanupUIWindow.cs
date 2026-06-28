@@ -13,6 +13,10 @@ namespace CompletedQuestCleaner
         [HarmonyPostfix]
         public static void HarmonyQuestCleanUpButton( Rect rect)
         {
+            if (!LoadedModManager.GetMod<QuestCleanupModOptions>().GetSettings<QuestCleanupModSettings>().questUIDrawing)
+            {
+                return;
+            }
             if (LoadedModManager.GetMod<QuestCleanupModOptions>().GetSettings<QuestCleanupModSettings>().questCleanUpButton)
             {
                 Rect questcleanuprect2 = rect;
@@ -25,7 +29,7 @@ namespace CompletedQuestCleaner
                 {
                     var questManager = Find.QuestManager;
                     var questCleanup = new List<Quest>();
-                    foreach (Quest quest in questManager.QuestsListForReading) // Error's if quests are removed on historical check.
+                    foreach (Quest quest in questManager.QuestsListForReading)
                     {
                         if (QuestCleanUp.ShouldCleanUp(quest))
                         {
@@ -34,8 +38,7 @@ namespace CompletedQuestCleaner
                     }
                     foreach (Quest QuestCleanup in questCleanup)
                     {
-                        questManager.Remove(QuestCleanup);
-                        QuestCleanUp.QuestCleanupToLog(QuestCleanup.name + ", Has been cleaned up.");
+                        QuestCleanUp.QuestCleanupFunction(QuestCleanup);
                     }
                 }
             }

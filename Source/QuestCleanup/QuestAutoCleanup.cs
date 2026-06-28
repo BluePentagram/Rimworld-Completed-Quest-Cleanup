@@ -14,8 +14,7 @@ namespace CompletedQuestCleaner
             {
                 if (QuestCleanUp.ShouldCleanUp(__instance))
                 {
-                    Find.QuestManager.Remove(__instance);
-                    QuestCleanUp.QuestCleanupToLog(__instance.name + " Quest has been auto cleaned up");
+                    QuestCleanUp.QuestCleanupFunction(__instance);
                 }
             }
         }
