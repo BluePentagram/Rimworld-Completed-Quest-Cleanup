@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<BPQuestCleanupButton>Cleanup Quest's</BPQuestCleanupButton>
-	<BPAutoQuestCleanupUIText>[UI Quest Cleanup] Auto cleaning historical Quests</BPAutoQuestCleanupUIText>
+	<BP.QuestCleanupButton>Quest log cleanup</BP.QuestCleanupButton>
+	<BP.QuestCleanupSettingMessage>Can change this ingame with the cleanup button.</BP.QuestCleanupSettingMessage>
+	<BP.QuestUIRemoveWarning>Removing Quest's that are a sub quest of another quest can reset the progress for that quest.</BP.QuestUIRemoveWarning>
 
-	<BPQuestCleanupMod>Historical Quest UI Cleanup</BPQuestCleanupMod>
-	
-	<BPQuestCleanupShowButton>Show quest ui cleanup button in quest log.</BPQuestCleanupShowButton>
-	<BPQuestCleanupShowButtonToolTip>Show quest ui cleanup button in quest log.</BPQuestCleanupShowButtonToolTip>
-	
-	<BPQuestAutoCleanup>Auto cleanup quest on move to historical tab.</BPQuestAutoCleanup>
-	<BPQuestAutoCleanupToolTip>Auto cleanup quest on move to historical tab.</BPQuestAutoCleanupToolTip>
-	
-	<BPQuestUIDrawing>Show UI changes in the quest panel. (Button needs this to be on)</BPQuestUIDrawing>
-	<BPQuestUIDrawingTooltip>Show the UI changes made in the quest journel.</BPQuestUIDrawingTooltip>	
+	<BP.QuestAutoCleanup>Auto clean up quest's as there finshed.</BP.QuestAutoCleanup>
 
+	<BP.QuestUIHideSuccess>Hide successfull</BP.QuestUIHideSuccess>
+	<BP.QuestUIHideFail>Hide failed</BP.QuestUIHideFail>
+	<BP.QuestUIHideExpired>Hide expired</BP.QuestUIHideExpired>
+	
+	<BP.QuestUIRemoveSuccess>Remove successfull</BP.QuestUIRemoveSuccess>
+	<BP.QuestUIRemoveFail>Remove failed</BP.QuestUIRemoveFail>
+	<BP.QuestUIRemoveExpired>Remove expired</BP.QuestUIRemoveExpired>
+
+	<BP.QuestUIUnhide>Unhide Quest's</BP.QuestUIUnhide>
+	<BP.QuestUIClean>Run Cleanup</BP.QuestUIClean>
+	<BP.QuestUIClose>Close</BP.QuestUIClose>
 </LanguageData>

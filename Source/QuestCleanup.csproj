@@ -66,6 +66,7 @@
     <Compile Include="QuestCleanup\Properties\AssemblyInfo.cs" />
     <Compile Include="QuestCleanup\QuestCleanUp.cs" />
     <Compile Include="QuestCleanup\QuestCleanupUIWindow.cs" />
+    <Compile Include="QuestCleanup\Window_QuestUICleanUp.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\About\About.xml" />

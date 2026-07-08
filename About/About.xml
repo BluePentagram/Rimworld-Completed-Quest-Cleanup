@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-	<name>Historical UI Quest Cleanup</name>
+	<name>Quest log cleanup</name>
 	<author>Blue-Pentagram</author>
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=3607505444</url>
 	<supportedVersions>
@@ -19,5 +19,5 @@
 	</modDependencies>
 	<loadAfter>
 	</loadAfter>
-	<description>Add's a mass delete Button to quickly remove all historical quests from yuor UI, does not remove relic hunt quests by itself.</description>
+	<description>Add's a way to dismiss your whole completed quest list with options to do it if it was a (Successfull, Failed or Expired) outcome and with it being hidden how removeing a quest in the vanilla method way the games does or fully removeing the quest from the game. (Warning can cause issues with quest progress if it's a subquest) </description>
 </ModMetaData>
