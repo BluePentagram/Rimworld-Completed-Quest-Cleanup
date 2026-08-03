@@ -19,7 +19,8 @@ namespace CompletedQuestCleaner
 
         public static bool ShouldCleanUp(Quest quest)
         {
-            if (AntiRelicProgress.Contains(quest.root.defName)) { return false; }
+            if (quest == null) { return false; }
+            if (quest.root != null && AntiRelicProgress.Contains(quest.root.defName)) { return false; }
             return quest.Historical;
         }
         public static void QuestCleanupFunction(Quest quest)
